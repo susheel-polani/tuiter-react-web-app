@@ -1,0 +1,99 @@
+body {
+  background-color: black;
+  color: white;
+}
+#bookmarks-container {
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid rgb(47, 51, 54);
+}
+.wd-heading {
+  padding-left: 16px;
+  padding-top: 12px;
+}
+.wd-title {
+  color: white;
+  font-size: 20px;
+}
+.wd-handle {
+  color: lightgray;
+  font-size: 13px;
+}
+.wd-name {
+  color: white;
+  font-size: 15px;
+}
+.wd-time {
+  color: lightgray;
+  font-size: 13px;
+}
+.float-done {
+  clear: both;
+}
+.wd-post {
+  padding-left: 16px;
+  padding-top: 12px;
+}
+.wd-profile-pic {
+  float: left;
+}
+.wd-post-content {
+  float: left;
+  padding-left: 12px;
+}
+.wd-pf {
+  width: 50px;
+  height: 50px;
+}
+.wd-rounded-corners-all-around {
+  border-radius: 24px;
+}
+.wd-main-content {
+  max-width: 506px;
+  padding-bottom: 12px;
+}
+p {
+  margin: 0;
+  font-size: 15px;
+}
+.wd-content-img {
+  width: 504px;
+  height: 264px;
+}
+.rounded-corners-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.rounded-corners-bottom {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.wd-content-title {
+  max-width: 504px;
+  border: 1px solid rgb(47, 51, 54);
+  padding-bottom: 10px;
+}
+.wd-padding-all {
+  padding: 12px;
+}
+ul#buttons {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 14px;
+}
+ul#buttons li {
+  display: inline;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+.like {
+  color: red;
+  text-decoration: none;
+}
+.others {
+  color: lightgray;
+  text-decoration: none;
+}
+.wd-fg-red {
+  color: red;
+}
