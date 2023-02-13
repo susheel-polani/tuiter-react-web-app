@@ -1,107 +1,27 @@
-body {
-  background-color: black;
-}
-#explore-container {
-  padding-left: 16px;
-  max-width: 600px;
-  margin: 0 auto;
-}
-.wd-fg-color-white {
+.image-container {
+  position: relative;
+  text-align: center;
   color: white;
+  font-size: 30px;
+  font-weight: bold;
 }
-.wd-bg-color-black {
-  background-color: black;
+.text-bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
 }
-.wd-bg-color-dark-gray {
-  background-color: darkgray;
+@media only screen and (width <= 1200px) {
+  .navigation-label {
+    display: none;
+  }
 }
-.wd-rounded-corners-all-around {
-  border-radius: 20px;
+@media only screen and (width <= 800px) {
+  .who-to-follow {
+    display: none;
+  }
 }
-.wd-search-input {
-  float: left;
-  outline: none;
-  border: none;
-  border-radius: 1.625rem;
-  padding: 0 3.5rem 0 1.5rem;
-  font-size: 1rem;
-  width: 75%;
-}
-.wd-settings {
-  float: right;
-  padding-right: 12px;
-}
-.float-done {
-  clear: both;
-}
-.wd-navigation-bar {
-  margin: 0;
-}
-.active {
-  padding-bottom: 10px;
-  color: rgb(29, 161, 242);
-  border-bottom: 1px solid rgb(29, 161, 242);
-  text-decoration: none;
-  font-size: 15px;
-}
-.non-active {
-  color: rgb(110, 118, 125);
-  text-decoration: none;
-  padding: 16px;
-  font-size: 15px;
-}
-ul#tabs {
-  list-style-type: none;
-  padding: 0;
-  margin-bottom: 14px;
-}
-ul#tabs li {
-  display: inline;
-}
-hr#tweets {
-  padding: 0;
-  margin: 0;
-  border: none;
-  background-color: rgb(47, 51, 54);
-  height: 2px;
-}
-.wd-topic {
-  font-size: 13px;
-  color: rgb(110, 118, 125);
-}
-.wd-title {
-  color: white;
-}
-.wd-tweets {
-  font-size: 13px;
-  color: rgb(110, 118, 125);
-}
-.wd-search-navigation {
-  border: 1px solid rgb(47, 51, 54);
-  padding-left: 10px;
-}
-.wd-suggested-posts {
-  border: 1px solid rgb(47, 51, 54);
-  padding: 10px;
-}
-.wd-expanded-posts {
-  border: 1px solid rgb(47, 51, 54);
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-bottom: 10px;
-}
-.wd-author {
-  float: left;
-  color: white;
-}
-.wd-time {
-  color: rgb(110, 118, 125);
-}
-.wd-author-image {
-  width: 100px;
-  height: 100px;
-}
-.wd-post-image {
-  float: right;
-  padding-right: 16px;
+@media only screen and (width <= 600px) {
+  .entertainment-tab {
+    display: none;
+  }
 }

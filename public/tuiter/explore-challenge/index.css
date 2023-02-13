@@ -1,0 +1,68 @@
+#nav-list-group > .list-group-item {
+  border: 0;
+}
+#who-to-follow-list > .list-group-item {
+  background-color: #f7f9f9;
+  border: 0;
+}
+#show-more {
+  color: #1d9bf0;
+  text-decoration: none;
+}
+.list-group a.active {
+  background-color: unset;
+  color: black;
+  font-weight: bold;
+  font-size: large;
+}
+.nav-pills .nav-link.active {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border-bottom: 2px solid #1d9bf0;
+  border-radius: 0px;
+}
+.btn-primary {
+  background-color: #1d9bf0;
+}
+.nav-pills .nav-link {
+  color: #677682;
+}
+.wd-search-container {
+  background-color: #eff3f4;
+}
+.wd-search-bar {
+  background-color: #eff3f4;
+  color: #536471;
+}
+.image-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.text-bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+.terms-links {
+  color: gray;
+  font-size: 12px;
+}
+@media only screen and (width <= 1200px) {
+  .navigation-label {
+    display: none;
+  }
+}
+@media only screen and (width <= 800px) {
+  .who-to-follow {
+    display: none;
+  }
+}
+@media only screen and (width <= 600px) {
+  .entertainment-tab {
+    display: none;
+  }
+}

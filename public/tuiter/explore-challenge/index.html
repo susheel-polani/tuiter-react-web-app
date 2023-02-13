@@ -20,9 +20,9 @@
       <div class="container">
         <div class="row">
           <div class="col-2">
-            <div class="list-group">
+            <div class="list-group" id="nav-list-group">
               <li class="list-group-item">
-                <i class="fab fa-twitter"></i>
+                <i class="fab fa-twitter fa-2x" style="color: #1d9bf0"></i>
               </li>
               <a href="#" class="list-group-item list-group-item-action">
                 <i class="fas fa-home"></i>
@@ -67,22 +67,25 @@
           </div>
           <div class="col-6">
             <div class="d-flex align-items-center">
-              <div class="border border-1 rounded-pill flex-grow-1">
+              <div
+                class="border border-1 rounded-pill flex-grow-1 wd-search-container"
+              >
                 <label for="search" class="ps-2"
-                  ><i class="fas fa-search"></i
+                  ><i class="fas fa-search" style="color: #536471"></i
                 ></label>
                 <input
                   type="text"
                   name="search"
                   placeholder="Search Twitter"
-                  class="border-0 ps-2"
+                  class="border-0 ps-2 wd-search-bar"
                 />
               </div>
               <a href="./explore-settings.html">
-                <i class="fas fa-cog ps-2 fa-2x" style="color: #0d6efd"></i>
+                <i class="fas fa-cog ps-2 fa-2x" style="color: #8a8f93"></i>
               </a>
             </div>
-            <ul class="nav nav-tabs pt-2">
+
+            <ul class="nav nav-pills nav-fill pt-2">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#"
                   >For You</a
@@ -101,6 +104,7 @@
                 <a class="nav-link entertainment-tab" href="#">Entertainment</a>
               </li>
             </ul>
+
             <div class="image-container pt-2">
               <img src="./assets/spacex-starship.webp" class="img-fluid" />
               <div class="text-bottom-left">
@@ -195,7 +199,7 @@
             </ul>
           </div>
           <div class="col-4 who-to-follow">
-            <ul class="list-group">
+            <ul class="list-group" id="who-to-follow-list">
               <li class="list-group-item fw-bold">Who to Follow</li>
               <li class="list-group-item">
                 <div class="d-flex align-items-center">
@@ -217,7 +221,7 @@
                     </div>
                   </div>
                   <div>
-                    <button class="btn btn-primary rounded-pill">Follow</button>
+                    <button class="btn btn-dark rounded-pill">Follow</button>
                   </div>
                 </div>
               </li>
@@ -241,7 +245,7 @@
                     </div>
                   </div>
                   <div>
-                    <button class="btn btn-primary rounded-pill">Follow</button>
+                    <button class="btn btn-dark rounded-pill">Follow</button>
                   </div>
                 </div>
               </li>
@@ -265,7 +269,7 @@
                     </div>
                   </div>
                   <div>
-                    <button class="btn btn-primary rounded-pill">Follow</button>
+                    <button class="btn btn-dark rounded-pill">Follow</button>
                   </div>
                 </div>
               </li>
@@ -289,7 +293,7 @@
                     </div>
                   </div>
                   <div>
-                    <button class="btn btn-primary rounded-pill">Follow</button>
+                    <button class="btn btn-dark rounded-pill">Follow</button>
                   </div>
                 </div>
               </li>
@@ -313,11 +317,25 @@
                     </div>
                   </div>
                   <div>
-                    <button class="btn btn-primary rounded-pill">Follow</button>
+                    <button class="btn btn-dark rounded-pill">Follow</button>
                   </div>
                 </div>
               </li>
+              <li class="list-group-item">
+                <a id="show-more" href="#">Show More</a>
+              </li>
             </ul>
+            <div class="terms-links ps-2">
+              <span>Terms of Service</span>
+              <span>Privacy Policy</span>
+              <span>Cookie Policy</span>
+              <span>Accessibility</span>
+              <span>Ads Info</span>
+              <span>More</span>
+              <span>---</span>
+              <br />
+              <span>@ 2023 Twitter, Inc.</span>
+            </div>
           </div>
         </div>
       </div>
