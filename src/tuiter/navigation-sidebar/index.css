@@ -1,0 +1,12 @@
+#nav-list-group > .list-group-item {
+  border: 0;
+}
+.list-group a.active {
+  background-color: unset;
+  color: black;
+  font-weight: bold;
+  font-size: large;
+}
+.btn-primary {
+  background-color: #1d9bf0 !important;
+}

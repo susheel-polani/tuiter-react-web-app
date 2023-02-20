@@ -1,0 +1,29 @@
+.nav-pills .nav-link.active {
+  background-color: white !important;
+  color: black !important;
+  font-weight: bold !important;
+  border-bottom: 2px solid #1d9bf0 !important;
+  border-radius: 0px !important;
+}
+.nav-pills .nav-link {
+  color: #677682;
+}
+.wd-search-container {
+  background-color: #eff3f4;
+}
+.wd-search-bar {
+  background-color: #eff3f4;
+  color: #536471;
+}
+.image-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.text-bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}

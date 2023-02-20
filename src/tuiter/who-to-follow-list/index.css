@@ -1,0 +1,12 @@
+#who-to-follow-list > .list-group-item {
+  background-color: #f7f9f9;
+  border: 0;
+}
+#show-more {
+  color: #1d9bf0;
+  text-decoration: none;
+}
+.terms-links {
+  color: gray;
+  font-size: 12px;
+}

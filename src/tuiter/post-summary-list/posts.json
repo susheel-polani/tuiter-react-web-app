@@ -1,0 +1,47 @@
+[
+  {
+    "_id": 1,
+    "topic": "Web Development",
+    "userName": "ReactJS",
+    "time": "2h",
+    "title": "React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs",
+    "image": "/assets/reactjs-logo.png",
+    "tweets": "125K"
+  },
+  {
+    "_id": 2,
+    "topic": "",
+    "userName": "JavaScript",
+    "time": "1 day",
+    "title": "JavaScript is programming language that can run on browsers as well as desktops",
+    "image": "/assets/js-logo.png",
+    "tweets": "123K"
+  },
+  {
+    "_id": 3,
+    "topic": "Web Development",
+    "userName": "",
+    "title": "jQuery",
+    "time": "last week",
+    "image": "/assets/jquery-logo.png",
+    "tweets": "122K"
+  },
+  {
+    "_id": 4,
+    "topic": "Web Development",
+    "userName": "NodeJS",
+    "title": "",
+    "time": "last month",
+    "image": "/assets/nodejs-logo.png",
+    "tweets": "120K"
+  },
+  {
+    "_id": 5,
+    "topic": "Space",
+    "userName": "SpaceX",
+    "time": "2h",
+    "title": "Tesla Cybertruck lands on Mars and picks up the Curosity rover on its 6' bed",
+    "image": "/assets/Tesla_logo.png",
+    "tweets": "250K"
+  }
+]
