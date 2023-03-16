@@ -5,6 +5,9 @@
   font-size: 30px;
   font-weight: bold;
 }
+.text-primary {
+  color: #1d9bf0 !important;
+}
 .text-bottom-left {
   position: absolute;
   bottom: 8px;
@@ -16,6 +19,9 @@
 }
 .wd-post-link {
   text-decoration: none;
+}
+.wd-liked-heart {
+  color: #f91680;
 }
 @media only screen and (width <= 1200px) {
   .navigation-label {

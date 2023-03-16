@@ -22,7 +22,7 @@ const PostSummaryItem = ({
           <span className="text-secondary fs-6"> - {post.time}</span>
           <div className="fw-bold">{post.title}</div>
           <div className="text-secondary fs-6">
-            <span>{post.tweets} Tweets</span>
+            <span>{post.retuits} Tweets</span>
           </div>
         </div>
         <img
