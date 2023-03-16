@@ -3,7 +3,7 @@ import Nav from "../nav";
 import NavigationSidebar from "./navigation-sidebar";
 import ExploreComponent from "./explore";
 import WhoToFollowList from "./who-to-follow-list";
-import PostList from "./home";
+import PostList from "./tuits/tuit-list";
 import { Routes, Route } from "react-router";
 import whoReducer from "./reducers/who-reducer";
 import tuitsReducer from "./tuits/tuits-reducer";

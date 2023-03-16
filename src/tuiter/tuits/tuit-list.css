@@ -1,0 +1,37 @@
+.image-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.text-bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+.wd-dot-icon {
+  font-size: 5px;
+  color: grey;
+}
+.wd-post-link {
+  text-decoration: none;
+}
+.wd-liked-heart {
+  color: #f91680;
+}
+@media only screen and (width <= 1200px) {
+  .navigation-label {
+    display: none;
+  }
+}
+@media only screen and (width <= 800px) {
+  .who-to-follow {
+    display: none;
+  }
+}
+@media only screen and (width <= 600px) {
+  .entertainment-tab {
+    display: none;
+  }
+}
