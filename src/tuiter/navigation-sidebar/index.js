@@ -74,9 +74,9 @@ const NavigationSidebar = () => {
           <span className="navigation-label ps-1">Lists</span>
         </a>
         <a
-          href="#"
+          href="/tuiter/profile"
           className={`list-group-item list-group-item-action ${
-            active === "Profile" ? "active" : ""
+            active === "profile" || active === "edit-profile" ? "active" : ""
           }`}
         >
           <i className="fas fa-user"></i>

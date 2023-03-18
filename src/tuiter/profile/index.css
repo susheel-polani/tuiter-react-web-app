@@ -1,0 +1,27 @@
+.wd-profile-pic {
+  width: 20%;
+  height: 20%;
+}
+.wd-banner {
+  position: absolute;
+}
+.wd-pic-pos {
+  position: relative;
+  top: 180px;
+  left: 10px;
+}
+.wd-edit-button {
+  position: relative;
+  left: 390px;
+  top: 40px;
+}
+.wd-banner-pic-width {
+  height: 330px;
+}
+.wd-bold {
+  font-weight: bold;
+  font-size: larger;
+}
+.wd-bold-only {
+  font-weight: bold;
+}
